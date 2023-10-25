@@ -1,0 +1,653 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("background.png");
+    top: 0;
+    color: white;
+}
+
+#logot{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    margin-left:50px ;
+    border-radius: 5px;
+}
+
+/*hompage ABOUT*/
+.homepage{
+    background-color: white;
+    height: 1000px;
+    width: 1350px;
+    margin-bottom: 20px;
+    margin-left: 240px;
+    opacity: .9;
+    margin-top: 70px;
+    z-index: -1;
+}
+
+.homepage p, h1{
+    color: black;
+}
+
+/*nav top*/
+.navtop ul{
+    background-color: rgb(77, 72, 72);
+    display: flex;
+    margin: 50px 0 0 1100px;
+    border-radius: 15px 50px 30px;
+}
+.navtop ul li{
+    list-style: none;
+    padding-left:60px ;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*nav side*/
+.navside{
+    margin-top: 150px;
+    position: fixed;
+    background-color: rgb(77, 72, 72);
+    margin-left: 50px;
+    border-radius: 20px;
+
+}
+.navside ul li{
+    list-style: none;
+    margin-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.navside ul li a{
+    color: white;
+}
+
+/*bottom*/
+.bot{
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px
+}
+
+.bot i{
+    margin-top: 20px;
+    margin-left: 820px;
+}
+
+.bot p{
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+/*right*/
+.right{
+    right: 0;
+    position: absolute;
+    margin:80px 50px;
+    height: 450px;
+    width: 230px;
+    background-color: rgb(56, 54, 54);
+    border-radius: 30px;
+    z-index: 1;
+}
+.right form input{
+    height: 20px;
+    width: 222px;
+}
+
+video{
+    height: 150px;
+    width: 230px;
+}
+
+.right h4{
+    margin-left: 28px;
+}
+
+.right a{
+    color: white;
+}
+.right a h5{
+    margin-left: 20px;
+}
+
+
+/*portfolio*/
+
+.navtop .content{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 105px;
+    margin-left: 1470px;
+    font-size: larger;
+    z-index: 1;
+    padding: 30px 50px;
+    display: none;
+    border-radius: 20px;
+}
+
+.port:hover .content{
+    display: block;
+}
+.navside .content{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: larger;
+    padding: 30px 50px;
+    display: none;
+    border-radius: 20px;
+}
+.ports:hover .content{
+    display: block;
+}
+
+
+/*map*/
+.maploc iframe{
+    height: 800px;
+    width: 1400px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+  }
+
+/*contact */
+.contrans{
+    background-color:white;
+    height: 720px;
+    width: 1100px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+    opacity: .9;
+    margin-top: 70px;
+}
+
+/**Contact heading*/
+.contrans h1{
+    margin: 10px 450px;
+    font-size: 50px;
+    position: relative;
+}
+
+/*Nico Contact*/
+
+.contrans ul a li{
+    color: black;
+    list-style: none;
+    margin-top: 85px;
+    font-size: larger;
+    margin-left: 90px;
+}
+
+.contrans #hic{
+    top: 0;
+    margin-top: 240px;
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 90px;
+}
+
+
+/*Olier Contact*/
+.contrans #hol{
+    top: 0;
+    margin-top: 240px;
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 830px;
+}
+
+.contrans .olier{
+    position: absolute;
+    top: 0;
+    margin-top: 235px;
+    margin-left: 700px;
+}
+
+/*settings*/
+.navside .but{
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    display: none;
+}
+.setting:hover .but{
+    display: block;
+}
+
+button{
+    font-size: larger;
+    border: 5px solid black;
+}
+
+.dark-mode{
+    background-image: none;
+    background-color: black;
+}
+
+/*responsive*******************************************************************************************************************************************************/
+@media only screen and (max-width: 1366px){
+    .homepage{
+        background-color: white;
+        width: 870px;
+        margin-bottom: 20px;
+        margin-left: 210px;
+        opacity: .9;
+        margin-top: 70px;
+    }
+
+    /*nav top*/
+.navtop ul{
+    background-color: rgb(77, 72, 72);
+    display: flex;
+    margin: 50px 0 0 600px;
+    border-radius: 15px 50px 30px;
+}
+.navtop ul li{
+    list-style: none;
+    padding-left:60px ;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*nav side*/
+.navside{
+    margin-top: 80px;
+    position: fixed;
+    background-color: rgb(77, 72, 72);
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+.navside ul li{
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.navside ul li a{
+    color: white;
+}
+/*right*/
+.right{
+    right: 0;
+    position: absolute;
+    margin:80px 20px;
+    height: 450px;
+    width: 230px;
+    background-color: rgb(56, 54, 54);
+    border-radius: 30px;
+}
+.right form input{
+    height: 20px;
+    width: 222px;
+}
+
+.right h4{
+    margin-left: 28px;
+}
+
+.right a{
+    color: white;
+}
+.right a h5{
+    margin-left: 20px;
+}
+
+/*bottom*/
+.bot{
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px
+}
+
+.bot i{
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.bot p{
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+/*contact */
+.contrans{
+    background-color:white;
+    height: 720px;
+    width: 870px;
+    margin-bottom: 20px;
+    margin-left:205px;
+    opacity: .9;
+    margin-top: 70px;
+}
+
+/**Contact heading*/
+.contrans h1{
+    margin: 10px 450px;
+    font-size: 50px;
+    position: relative;
+}
+
+/*Nico Contact*/
+
+.contrans ul a li{
+    color: black;
+    list-style: none;
+    margin-top: 85px;
+    font-size: larger;
+    margin-left: 30px;
+}
+
+.contrans #hic{
+    top: 0;
+    margin-top: 240px;
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+
+/*Olier Contact*/
+.contrans #hol{
+    top: 0;
+    margin-top: 240px;
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 650px;
+}
+
+.contrans .olier{
+    position: absolute;
+    top: 0;
+    margin-top: 235px;
+    margin-left: 600px;
+}
+.maploc iframe{
+    height: 700px;
+    width: 890px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: 195px;
+  }
+
+  /*portfolio*/
+
+.navtop .content{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 95px;
+    margin-left: 950px;
+    font-size: larger;
+    padding: 20px 40px;
+    display: none;
+    border-radius: 20px;
+}
+
+.port:hover .content{
+    display: block;
+}
+.navside .content{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 30px 50px;
+    display: none;
+    border-radius: 20px;
+}
+.ports:hover .content{
+    display: block;
+}
+
+}
+
+/*****************************************************************************************************************/
+@media only screen and (max-width: 1000px){
+    .homepage{
+        background-color: white;
+        width: 600px;
+        margin-bottom: 20px;
+        margin-left: 180px;
+        opacity: .9;
+        margin-top: 70px;
+    }
+
+    /*nav top*/
+.navtop ul{
+    background-color: rgb(77, 72, 72);
+    display: flex;
+    margin: 50px 0 0 350px;
+    border-radius: 15px 50px 30px;
+}
+.navtop ul li{
+    list-style: none;
+    padding-left:40px ;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*nav side*/
+.navside{
+    margin-top: 80px;
+    position: fixed;
+    background-color: rgb(77, 72, 72);
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+.navside ul li{
+    list-style: none;
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.navside ul li a{
+    color: white;
+}
+/*right*/
+.right{
+    right: 0;
+    position: absolute;
+    margin:80px 20px;
+    height: 450px;
+    width: 180px;
+    background-color: rgb(56, 54, 54);
+    border-radius: 30px;
+}
+.right form input{
+    height: 20px;
+    width: 173px;
+}
+
+video{
+    height: 130px;
+    width: 180px;
+}
+.right h4{
+    margin-left: 28px;
+}
+
+.right a{
+    color: white;
+}
+.right a h5{
+    margin-left: 20px;
+}
+
+/*bottom*/
+.bot{
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px
+}
+
+.bot i{
+    margin-top: 20px;
+    margin-left: 420px;
+}
+
+.bot p{
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+/*contact */
+.contrans{
+    background-color:white;
+    height: 720px;
+    width: 595px;
+    margin-bottom: 20px;
+    margin-left:185px;
+    opacity: .9;
+    margin-top: 70px;
+}
+
+/**Contact heading*/
+.contrans h1{
+    margin: 10px 220px;
+    font-size: 50px;
+    position: relative;
+}
+
+/*Nico Contact*/
+
+.contrans ul a li{
+    color: black;
+    list-style: none;
+    margin-top: 85px;
+    font-size: larger;
+    margin-left: 10px;
+}
+
+.contrans #hic{
+    top: 0;
+    margin-top: 240px;
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+
+/*Olier Contact*/
+.contrans #hol{
+    top: 0;
+    margin-top: 240px;
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 380px;
+}
+
+.contrans .olier{
+    position: absolute;
+    top: 0;
+    margin-top: 235px;
+    margin-left: 330px;
+}
+.maploc iframe{
+    height: 700px;
+    width: 870px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+  }
+
+  /*portfolio*/
+
+.navtop .content{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 95px;
+    margin-left: 650px;
+    font-size: larger;
+    padding: 20px 40px;
+    display: none;
+    border-radius: 20px;
+}
+
+.port:hover .content{
+    display: block;
+}
+.navside .content{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 30px 50px;
+    display: none;
+    border-radius: 20px;
+}
+.ports:hover .content{
+    display: block;
+}
+
+/*map*/
+.maploc iframe{
+    height: 500px;
+    width: 595px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: 185px;
+  }
+
+}
